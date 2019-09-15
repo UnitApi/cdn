@@ -18,6 +18,19 @@ URL Structure
 
 The URL structure for ApiUnit is as follows:
 
+    // cdn.apiunit.com / [application.name] / [version.number] / [distribution.type] .js
+    
+example:
+    
+    cdn.apiunit.com/newsletter/1.1.0/min.js
+    cdn.apiunit.com/newsletter/1.1.0/source.js
+
+OR
+
+    cdn.apiunit.com/newsletter-1.1.0-min.js
+    cdn.apiunit.com/newsletter-1.1.0-source.js
+
+
 <script src="https://cdn.apiunit.com/[application.name][version.number]/[distribution.type]/apiunit.js"></script>
 
 The following distributions (see comparison table) are available:
