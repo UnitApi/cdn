@@ -19,6 +19,15 @@ With WP Rocket, you can integrate your website with CloudFlare, a popular CDN. G
 
 While Cloudflare is a useful free option for users with small websites, larger websites should invest in a premium service, such as MaxCDN (now StackPath), KeyCDN or even an open source option like jsDelivr.
 
+# Cache
+    A cache temporarily stores content for faster retrieval on repeated page loads.
+    Using a cache for storage is called “caching.”
+
+Below are the differences between each kind of cache, summarized for clarity:
+
+    A site cache saves certain types of content and is controlled client-side.
+    A browser cache saves the same types of content, and is saved on your computer, through your browser, and is controlled by the browser. It’s a type of client-side cache.
+    Server caches store content, code, queries, or similar data on a server, or multiple servers, and is controlled by the server instead of a browser (client), or user.
 
 ## Server Cache
 
