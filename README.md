@@ -10,6 +10,19 @@ https://wp-rocket.me/blog/reduce-http-requests-speed-wordpress-site/
 + Deleting and Optimizing Images
 + Evaluating and Reducing External Scripts
 
+There are also advanced file optimization options that can significantly improve site performance including:
+
+    Minify HTML – Minifying HTML removes whitespace and comments to reduce the size.
+    Combine Google Fonts files – Combining Google Fonts will reduce the number of HTTP requests.
+    Remove query strings from static resources – This removes the version query string from static files and encodes it into the filename instead, to help improve your GTMetrix score.
+    Minify CSS files – Minifying CSS removes whitespace and comments to reduce the file size.
+    Combine CSS files – This merges all your files into one, reducing HTTP requests.
+    Optimize CSS delivery – Optimizing CSS delivery eliminates render-blocking CSS on your website for faster perceived load time.
+    Minify JavaScript files – This setting removes whitespace and comments to reduce the file size.
+    Combine JavaScript files – Similarly to combining CSS files, combing your JavaScript files helps reduce HTTP requests by combining your site’s internal, third party and inline JavaScript.
+    Load JavaScript deferred – Loading JavaScript deferred eliminates render-blocking JavaScript on your site and can improve load time.
+
+You can also integrate the CDN of your choice for even more caching superpowers. There are loads of options like Batman’s utility belt, except WP Rocket is so much easier to set up and implement.
 
 ## Content Delivery Network
 
