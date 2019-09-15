@@ -8,11 +8,17 @@ ApiUnit is hosted on servers spread across the globe - scripts are loaded faster
 If the same version of ApiUnit has already been downloaded (even on a different website), it is loaded from cache.
 CDN/Cloudflare reduces the number of HTTP requests handled by your server so it speeds it up as well!
 
+
+
+URL Structure
+
+
+
 ## URL Structure
 
 The URL structure for ApiUnit is as follows:
 
-<script src="https://cdn.apiunit.com/[version.number]/[distribution]/apiunit.js"></script>
+<script src="https://cdn.apiunit.com/[application.name][version.number]/[distribution.type]/apiunit.js"></script>
 
 The following distributions (see comparison table) are available:
 
@@ -21,6 +27,14 @@ The following distributions (see comparison table) are available:
     standard-all - the Standard preset together with all other plugins created by ApiUnit*
     full - the Full preset
     full-all - the Full preset together with all other plugins created by ApiUnit*
+
+
+    classic - the Classic editor
+    inline - the Inline editor
+    balloon - the Balloon editor
+    balloon-block - the Balloon block editor
+    decoupled-document - the Document editor
+
 
 * Plugins not included in a preset need to be enabled with config.extraPlugins.
 
