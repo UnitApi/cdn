@@ -1,6 +1,39 @@
 # cdn
 Info about solution and how ti works on apiunit
 
+## Cache
+Speed up your website by loading ApiUnit from CDN/Cloudflare:
+
+ApiUnit is hosted on servers spread across the globe - scripts are loaded faster because they are served from the nearest locations to the end user.
+If the same version of ApiUnit has already been downloaded (even on a different website), it is loaded from cache.
+CDN/Cloudflare reduces the number of HTTP requests handled by your server so it speeds it up as well!
+
+## URL Structure
+
+The URL structure for ApiUnit is as follows:
+
+<script src="https://cdn.apiunit.com/[version.number]/[distribution]/apiunit.js"></script>
+
+The following distributions (see comparison table) are available:
+
+    basic - the Basic preset
+    standard - the Standard preset
+    standard-all - the Standard preset together with all other plugins created by ApiUnit*
+    full - the Full preset
+    full-all - the Full preset together with all other plugins created by ApiUnit*
+
+* Plugins not included in a preset need to be enabled with config.extraPlugins.
+
+
+## Apiunit Serve
+
+serve the versions in structure:
+
+
+over nodejs. app:
++ use github repository
++ generate the filesystem for each version of project
+use pattern: 
 
 ## Example solution:
 https://wp-rocket.me/blog/reduce-http-requests-speed-wordpress-site/
