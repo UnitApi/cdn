@@ -52,4 +52,9 @@ Types of server caching include, but aren’t limited to:
     CDN caching – A Content Delivery Network (CDN) is a cluster of servers that are geographically located all around the world. They cache content that’s loaded using the server that’s closest to the end user for much faster loading times.
     Opcode caching – PHP code is compiled between each request, then stored in a cache so it’s executable faster on repeated page loads.
     
-    
+
+## Cloudflare
+When someone visits your site, Cloudflare will take your static content and store your content on Cloudflare’s network of servers around the world. Then, for future visitors, Cloudflare can serve up that cached static content from the Cloudflare edge server that’s nearest to each visitor.
+
+Because of how this approach works, all of your content will still load from yoursite.com. This is different from how a lot of other CDNs work, where it’s common to serve your content from a separate URL like cdn.yoursite.com.
+
